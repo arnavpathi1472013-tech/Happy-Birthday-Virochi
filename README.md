@@ -58,6 +58,15 @@ Visit https://arnavpathi1472013-tech.github.io/Happy-Birthday-Virochi
 
 
 ---
+
+# CREDITS 🎀
+
+**🎨 Illustration (`illustration.jpg`) — Made by ANWESH PATHI**
+
+**💖 Special Thanks**
+
+**Illustrations by ANWESH PATHI**
+
 <div align="center">
   
 <a href="https://git.io/typing-svg">
