@@ -44,6 +44,10 @@ This little birthday surprise was handmade with lots of 💗 by your favourite b
 
 ## 🚀 How to Run
 
+Visit https://arnavpathi1472013-tech.github.io/Happy-Birthday-Virochi
+
+# or
+
 1. Download or clone this folder: `my-birthday-gift/`
 2. Make sure these files exist:
    - `images/hero.jpg`
