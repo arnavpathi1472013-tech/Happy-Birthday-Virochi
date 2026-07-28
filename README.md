@@ -1,8 +1,7 @@
-<div align="center">
-
-![Virochi Hero Photo](images/hero.jpg)       ![Virochi Birthday Card](images/illustration.jpg)
-</div>
-
+<p align="center">
+  <img src="images/hero.jpg" width="45%" alt="Virochi Hero Photo">
+  <img src="images/illustration.jpg" width="45%" alt="Virochi Birthday Card">
+</p>
 <div align="center">
 
 # 🎈 Happy Birthday Virochi! 🎂
