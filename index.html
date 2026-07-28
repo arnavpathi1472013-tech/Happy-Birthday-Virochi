@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>Happy Birthday Virochi! 🎂</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Sniglet:wght@400;800&display=swap" rel="stylesheet" />
+
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body class="bg-birthday">
+
+  <audio id="bdayAudio" src="audio/birthday.mp3" loop></audio>
+
+  <div id="balloonLayer" class="balloon-layer" aria-hidden="true"></div>
+
+  <div id="curtainStage" class="curtain-stage">
+    <div id="curtainLeft" class="curtain curtain-left"></div>
+    <div id="curtainRight" class="curtain curtain-right"></div>
+
+    <button id="openCurtainBtn" class="curtain-btn" aria-label="Tap to open the birthday surprise">
+      <span class="curtain-btn-emoji">🎁</span>
+      <span>TAP TO OPEN!</span>
+    </button>
+  </div>
+
+  <div id="giftStage" class="gift-stage hidden-stage">
+    <div class="gift-sparkle-bg" aria-hidden="true"></div>
+    <p class="gift-instruction">TAP THE GIFT!</p>
+    <button id="giftBox" class="gift-box" aria-label="Tap the gift box to open it">
+      <span class="gift-box-bow">🎀</span>
+      <span class="gift-box-body">
+        <span class="gift-box-ribbon-v"></span>
+        <span class="gift-box-ribbon-h"></span>
+      </span>
+    </button>
+  </div>
+
+  <main id="mainStage" class="main-stage hidden-stage">
+
+    <section class="text-center px-4 pt-10 pb-6 relative z-10">
+      <h1 class="main-heading">
+        HAPPY BIRTHDAY <span class="text-heading-pink">VIROCHI!</span> 🎂🎉
+      </h1>
+      <p class="ribbon-subheading">
+        💖 Made with love by your favourite bro, Arnav 💖
+      </p>
+
+      <div class="hero-frame mx-auto mt-8">
+        <img src="images/hero.jpg" alt="Virochi Hero" class="hero-img" />
+      </div>
+
+      <div class="flex flex-wrap justify-center gap-5 mt-10 px-2">
+        <button id="confettiBtn" class="action-btn action-btn-pink">
+          Pop Confetti! 🎉
+        </button>
+        <button id="sparkleBtn" class="action-btn action-btn-lavender">
+          More Sparkles! ✨
+        </button>
+        <button id="musicBtn" class="action-btn action-btn-gold">
+          Play Music 🎵
+        </button>
+      </div>
+    </section>
+
+    <div class="divider-row" aria-hidden="true">👑 ⭐ 🌸 ⭐ 👑</div>
+
+    <section class="text-center px-4 py-12 relative z-10">
+      <h2 class="section-heading">Special Birthday Card 🎨</h2>
+      <div class="illustration-frame mx-auto mt-6">
+        <img src="images/illustration.jpg" alt="Virochi Birthday Illustration" class="illustration-img" />
+      </div>
+    </section>
+
+    <footer class="footer-block">
+      <p>Made by your favourite bro, Arnav 👑</p>
+    </footer>
+  </main>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
